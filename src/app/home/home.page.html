@@ -1,20 +1,10 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
+<!-- Estructura del proyecto. En ionic todos los elementos comienzan con el prefio 'ion' -->
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <h1 class="title">Page App</h1>
+  <h2 class="subTitle">Proyecto de Ionic</h2>
+  <!-- Para llamar las funciones, se utilizo el evento click '(click)' en cada ion-button -->
+  <ion-button class="homeButton" color="warning" (click)="goToSamirMendez()">Go to Samir Méndez</ion-button>
+  <ion-button class="homeButton" color="warning" (click)="goToMathewsMendez()">Go to Mathews Méndez</ion-button>
+  <!-- Para llamar las funciones, se utilizo el evento click '(click)' en cada ion-button -->
 </ion-content>
+<!-- Estructura del proyecto. En ionic todos los elementos comienzan con el prefio 'ion' -->
